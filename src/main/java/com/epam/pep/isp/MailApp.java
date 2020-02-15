@@ -3,7 +3,7 @@ package com.epam.pep.isp;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class MailApp implements MailSender, EmailValidator, MessageEncoder{
+public class MailApp implements Mailer {
 
     @Override
     public boolean validate(String email) {
